@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{--@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -20,4 +20,12 @@
         </div>
     </div>
 </div>
+@endsection--}}
+
+@extends('layouts')
+
+@section('title')Главная  страница@endsection
+
+@section('main_content')
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores consequuntur, culpa dicta doloribus ea error quidem reiciendis sapiente soluta voluptas. Amet culpa in laborum sit voluptatem. Consequuntur deserunt eveniet nesciunt.</p>
 @endsection
